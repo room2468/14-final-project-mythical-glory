@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "674491083877",
+    "project_id": "sensus-3e522",
+    "storage_bucket": "sensus-3e522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674491083877:android:aac11f9745d0d9df08ea8c",
+        "android_client_info": {
+          "package_name": "com.example.sensus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674491083877-khjecnsf7oqcl08pkdaehvago0qmpkab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sensus",
+            "certificate_hash": "a6aec50c356038b08e2fa06c9909e5cfb4e8b632"
+          }
+        },
+        {
+          "client_id": "674491083877-rf0mhjtc9jd8pfqfbbsd6hh411c8iaen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxAv9K4NgqRz2kyV0AWMbhqJ1pz-8OLW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674491083877-rf0mhjtc9jd8pfqfbbsd6hh411c8iaen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
