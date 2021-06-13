@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sensus/DrawerNav.dart';
 import 'package:sensus/Mulai.dart';
 
 class Home extends StatelessWidget {
@@ -7,13 +8,14 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.lightBlue,
         elevation: 0.0,
         centerTitle: true,
         title: Text(
           'Sensus Penduduk'
         ),
       ),
+      drawer: DrawerNav(),
     );
   }
 }
