@@ -18,10 +18,10 @@ class _DrawerNavState extends State<DrawerNav> {
           children: <Widget>[
             UserAccountsDrawerHeader(
               accountName: Text("Gemoy"),
-              accountEmail: Text("gmy@gmail.com"),
+              accountEmail: Text("gilangsafiraa@gmail.com"),
               currentAccountPicture: CircleAvatar(
                 backgroundImage: NetworkImage(
-                    'https://data.whicdn.com/images/327744867/original.jpg'),
+                    'https://www.clipartkey.com/mpngs/m/101-1016217_free-user-avatar-icons-happy-user-icon-png.png'),
               ),
             ),
             ListTile(

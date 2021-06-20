@@ -5,12 +5,12 @@ import 'package:sign_button/create_button.dart';
 import 'Home.dart';
 import 'SignIn.dart';
 
-class Start extends StatefulWidget {
+class Mulai extends StatefulWidget {
   @override
   _StartState createState() => _StartState();
 }
 
-class _StartState extends State<Start> {
+class _StartState extends State<Mulai> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +20,7 @@ class _StartState extends State<Start> {
             Container(
               height: 400,
               child: Image(
-                image: AssetImage("images/packages.png"),
+                image: AssetImage("images/welcome.png"),
                 fit: BoxFit.contain,
               ),
             ),
@@ -33,11 +33,11 @@ class _StartState extends State<Start> {
                         color: Colors.black),
                     children: <TextSpan>[
                   TextSpan(
-                      text: 'Sensus Coy',
+                      text: ' Sensus Coy',
                       style: TextStyle(
                           fontSize: 30.0,
                           fontWeight: FontWeight.bold,
-                          color: Colors.orange))
+                          color: Colors.lightBlue))
                 ])),
             SizedBox(height: 10.0),
             Text(
@@ -54,7 +54,7 @@ class _StartState extends State<Start> {
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) {
-                            return Home();
+                            return Home(result);
                           },
                         ),
                       );
